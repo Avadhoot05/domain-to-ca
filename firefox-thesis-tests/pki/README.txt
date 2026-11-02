@@ -1,7 +1,7 @@
 Local Firefox domain-to-CA binding test PKI
 ===========================================
 
-Hostname: app.scone.cloud
+Hostname: app.scone.test
 
 Layout:
   cas/ca-a/      CA-A files
@@ -20,7 +20,7 @@ Use the fingerprint of the CA you intend to approve in your test policy.
 Next step:
   Run create_test_server_certs.sh with this output directory as its argument
   to generate server keys, CSRs, certificates, and extension configuration
-  files for app.scone.cloud.
+  files for app.scone.test.
 
 IMPORTANT:
 - CA-A and CA-B are just test labels; neither is inherently approved.

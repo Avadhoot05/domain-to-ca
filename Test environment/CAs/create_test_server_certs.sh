@@ -14,7 +14,7 @@ umask 077
 
 OUT_DIR="${1:-$HOME/firefox-thesis-tests/pki}"
 OUT_DIR="${OUT_DIR%/}"
-HOSTNAME="app.thesis.cloud"
+HOSTNAME="app.thesis.test"
 DAYS_SERVER=90
 
 if ! command -v openssl >/dev/null 2>&1; then

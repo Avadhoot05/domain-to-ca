@@ -1,4 +1,4 @@
-Server certificates for app.thesis.cloud
+Server certificates for app.thesis.test
 ===================================
 
 Layout:
@@ -19,7 +19,7 @@ spki-fingerprints.txt contains SHA-256 fingerprints of each CA's SPKI.
 Use CA-A's fingerprint as the allowed anchor in your example policy if you
 want CA-A to be approved for the protected hostname.
 
-Both server certificates identify app.thesis.cloud, but are signed by different
+Both server certificates identify app.thesis.test, but are signed by different
 CAs. CA-A and CA-B are just test labels; policy determines which is approved.
 
 IMPORTANT:
